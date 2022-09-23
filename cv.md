@@ -13,9 +13,10 @@ I want to gain knowledge in the field of front-end development in order to make 
 
 ## Code Examples ##
 ```javascript
-    var massiv = [Max, Dima, Kate, Nastya];
-    massiv.sort();
-    massive.reverse();
+    function capitalizeWord(word) {
+    let first =  word[0].toUpperCase();
+    return first + word.slice(1);
+    }
 ```
 ## Education ##
 * Belarusian National Technical University
